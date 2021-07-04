@@ -1,0 +1,227 @@
+.flex {
+    display: flex;
+}
+.headersection {
+    max-width: 1920px;
+    width: 100%;
+    height: 1076px;
+    background-image: url(../MainPageImg/headerimg/backgroundimg.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundcover {
+    background-image:url(../MainPageImg/headerimg/backgroundcover.png) ;
+    background-size: cover;
+    background-position: center;
+    max-width: 1920px;
+    width: 100%;
+    height: 1076px;
+    position: relative;
+}
+.header-wrapper {
+    justify-content: space-around;
+}
+.ul-wrapper {
+    justify-content: space-between;
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+}
+.icons-wrapper {
+    max-width: 115px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.margin-top-header {
+    margin-top: 40px;
+}
+.a-li {
+    color: #ffff;
+    font-size: 16px;
+
+}
+.h1-shopnow-wrapper {
+    flex-direction: column;
+    justify-content: space-around;
+}
+.eclipsearrow-wrapper {
+    background-image: url(../MainPageImg/headerimg/ellipse.svg);
+    background-repeat: no-repeat;
+    height: 39px;
+    max-width: 39px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gotoshop {
+    align-items: center;
+    max-width: 160px;
+    width: 100%;
+    justify-content: space-around;
+}
+.center-wrapper {
+    max-width: 1350px;
+    justify-content: space-around;
+    margin-top: 170px;
+    width: 100%;
+}
+.mainstatement {
+    flex-direction: column;
+    font-size: 84px;
+    color: #ffff;
+}
+.h2-wrapper {
+    color: #ffff;
+    font-size: 16px;
+}
+.bottomof-headersection {
+    position: absolute;
+    bottom: -2px;
+    max-width: 1920px;
+    width: 100%;
+}
+.margin-wrapper {
+    margin:110px 165px 0px 165px;
+}
+.pills {
+    max-width: 1221px;
+    width: 100%;
+}
+.flexer {
+    justify-content: space-between;
+    max-width: 1920px;
+    width: 100%;
+}
+.nextprev-wrapper {
+    max-width: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.nextprev-buttons {
+    max-width: 161px;
+    width: 100%;
+}
+.viewall-checkmore {
+    margin-top: 110px;
+    justify-content: center;
+}
+.checkmore-wrapper, .viewall-wrapper {
+    max-width: 799px;
+    width: 100%;
+    height: 404px;
+}
+.viewall-wrapper {
+    background-image: url(../MainPageImg/all&moreimg/viewallwrapper.png);
+    
+}
+.checkmore-wrapper {
+    background-image: url(../MainPageImg/all&moreimg/checkmorewrapper.png);
+}
+.viewalltools, .checkmoretools {
+    max-width: 400px;
+    width: 100%;
+    height: 300px;
+    align-self: flex-end;
+}
+.checkmoretools {
+    max-width: 350px;
+}
+.satauri3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    color: #ffff;
+    line-height: 1.5;
+}
+.inside-viewall, .inside-checkmore {
+    max-width: 440px;
+    width: 100%;
+    text-align: center;
+    align-self: center;
+}
+.viewallbtn, .checkmorebtn{
+    margin-top: 20px;
+}
+.viewallbtn {
+    max-width: 138px;
+    width: 100%;
+}
+.checkmorebtn {
+    max-width: 178px;
+    width: 100%;
+}
+.justwrapper {
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nextprev-showmore {
+    max-width: 235px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.next-prev {
+    max-width: 61px;
+    width: 100%;
+    justify-content: space-between;
+}
+.satauri4 {
+    font-size: 32px;
+}
+.selectedforyou-wrapper {
+    margin-top: 64px;
+    justify-content: space-between;
+}
+.photo1 {
+    flex-direction: column;
+    line-height: 2;
+}
+#photo {
+    max-width: 330px;
+    width: 100%;
+}
+#artistname {
+    font-size: 20px;
+}
+#price {
+    font-size: 24px;
+}
+.braker {
+    max-width: 30px;
+    width: 100%;
+}
+.section4 {
+    margin-top: 110px;
+}
+.auction-wrapper {
+    justify-content: space-between;
+    margin-top: 66px;
+}
+.pbt {
+    display: flex;
+    max-width: 330px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.section5 {
+    background-image: url(../MainPageImg/footerimg/subscribecover.png);
+    max-width: 1589px;
+    width: 100%;
+    height: 242px;
+    margin-top: 145px;
+}
+.subscribe-cover {
+    background-image: url(../MainPageImg/footerimg/coverer.png);
+    max-width: 1589px;
+    width: 100%;
+    height: 242px;
+}
