@@ -36,12 +36,26 @@
     justify-content: space-between;
     align-items: center;
 }
+#mainicon {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+}
+.riabidicon {
+    display: none;
+}
+
+.riabidiconshow {
+    display: inline-block;
+}
+
 .margin-top-header {
     margin-top: 40px;
 }
 .a-li {
     color: #ffff;
     font-size: 16px;
+    font-family: Poppinssemibold;
 
 }
 .h1-shopnow-wrapper {
@@ -74,10 +88,12 @@
     flex-direction: column;
     font-size: 84px;
     color: #ffff;
+    font-family: Poppinssemibold;
 }
 .h2-wrapper {
     color: #ffff;
     font-size: 16px;
+    font-family: Poppinssemibold;
 }
 .bottomof-headersection {
     position: absolute;
@@ -86,7 +102,7 @@
     width: 100%;
 }
 .margin-wrapper {
-    margin:110px 165px 0px 165px;
+    margin:110px 165px 20px 165px;
 }
 .pills {
     max-width: 1221px;
@@ -137,6 +153,7 @@
     display: flex;
     flex-direction: column;
     font-size: 25px;
+    font-family: Poppinsmedium;
     color: #ffff;
     line-height: 1.5;
 }
@@ -175,6 +192,7 @@
 }
 .satauri4 {
     font-size: 32px;
+    font-family: 'Poppinslight';
 }
 .selectedforyou-wrapper {
     margin-top: 64px;
@@ -187,9 +205,28 @@
 #photo {
     max-width: 330px;
     width: 100%;
+    position: relative;
 }
+/* .hover {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.overlay {
+    max-width: 330px;
+    width: 100%;
+    position: absolute;
+}
+.iconswrap {
+    position: absolute;
+}
+.favouritesicon, .shoppingcarticon {
+    
+} */
+
 #artistname {
     font-size: 20px;
+    font-family: 'Poppinslight';
 }
 #price {
     font-size: 24px;
@@ -232,6 +269,7 @@
 }
 .satauri5 {
     font-size: 32px;
+    font-family: Poppinsregular;
     color: #fff;
 }
 .emailsubscribe {
@@ -257,12 +295,78 @@
     background-color: #FBB03B;
     color: #fff;
     font-size: 16px;
+    font-family: Poppinssemibold;
 }
 #subscribebtn:hover {
     background-color: #ca8a26;
 }
 #email::placeholder{
     font-size: 15px;
+    font-family: Poppinsregular;
     color: #ABABAB;
 
+}
+.footersection {
+    margin-top: 145px;
+}
+.footer-p {
+    max-width: 564px;
+    width: 100%;
+    margin-top: 17px;
+    color: #808080;
+    font-size: 13px;
+    font-family: Poppinsregular;
+}
+.footerbox1 {
+    line-height: 2.2;
+}
+.footer-logos {
+    margin-top: 45px;
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.satauri6 {
+    font-size: 24px;
+    font-family: Poppinsbold;
+    color: #1F1F1F;
+}
+.footer-div {
+    justify-content: space-between;
+}
+.footerbox2 {
+    max-width: 415px;
+    width: 100%;
+    justify-content: space-around;
+}
+.footer-ul {
+    margin-top: 35px;
+    line-height: 1.5;
+}
+.satauri6-footer {
+    font-size: 14px;
+    font-family: Poppinssemibold;
+    color: #000000;
+}
+.footer-li {
+    font-size: 13px;
+    font-family: Poppinsregular;
+    color: #000000;
+}
+.footer-bottom {
+    margin-top: 80px;
+    max-width: 600px;
+    width: 100%;
+    justify-content: space-between;
+}
+.designedby {
+    font-size: 12px;
+    font-family: Poppinsregular;
+    color: #AEAEAE;
+}
+.termsofuse, .privacypolicy {
+    font-size: 12px;
+    font-family: Poppinsregular;
+    color: #646464;
 }

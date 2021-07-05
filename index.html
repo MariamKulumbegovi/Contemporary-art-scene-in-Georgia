@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/fonts.css">
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/main.css">
     <meta charset="UTF-8">
@@ -13,8 +15,9 @@
         <div class="backgroundcover">
             <header class="header-wrapper flex">
                 <div class="icon-wrapper margin-top-header">
-                    <a href="index.html">
-                        <img src="./MainPageImg/headerimg/mainicon.svg" alt="Contemporary art scene in Georgia">
+                    <a class="flex" href="index.html">
+                        <img id="mainicon" src="./MainPageImg/headerimg/mainicon.svg" alt="Contemporary art scene in Georgia">
+                        <img class="riabidicon" src="./MainPageImg/headerimg/riabid.svg" alt="riabid">
                     </a>
                 </div>
                 <ul class="ul-wrapper flex margin-top-header">
@@ -127,6 +130,13 @@
             <div class="selectedforyou-wrapper flex">
                 <div class="photo1 flex">
                     <img id="photo" src="./MainPageImg/selectedjustforyou/photo1.png" alt="Holmustund">
+                    <!-- <div class="hover">
+                        <img class="overlay" src="./MainPageImg/auctionimg/overlay.svg" alt="overlay">
+                        <div class="iconswrap">
+                            <img class="favouritesicon" src="./MainPageImg/auctionimg/hearticon.svg" alt="add to favourites">
+                            <img class="shoppingcarticon" src="./MainPageImg/auctionimg/shoppingcarticon.svg" alt="add to the shopping cart">
+                        </div>
+                    </div> -->
                     <span id="artistname">Holmustund</span>
                     <span id="price" >$699.99</span>
                 </div>
@@ -223,9 +233,73 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </section>
+        <section class="footersection">
+            <footer class="footer-wrapper">
+                <div class="footer-div flex">
+                    <div class="footerbox1">
+                        <h6 class="satauri6">RiaBid.</h6>
+                        <p class="footer-p">
+                            The Ria Keburia Foundation, founded in 2018 by the Georgian patron of the arts Ria Keburia, aims to support development of contemporary art scene in Georgia and South Caucasus.
+                        </p>
+                        <div class="footer-logos">
+                            <a target="_blank" href="https://www.facebook.com/ContemporaryArtinGeorgia">
+                                <img src="./MainPageImg/footerimg/facebooklogo.svg" alt="facebook of contemporary art scene in georgia">
+                            </a>
+                            <a target="_blank" href="https://twitter.com/?lang=en">
+                                <img src="./MainPageImg/footerimg/twitterlogo.svg" alt="twitter of contemporary art scene in georgia">
+                            </a>
+                            <a target="_blank" href="https://www.linkedin.com/">
+                                <img src="./MainPageImg/footerimg/linkedinlogo.svg" alt="linkedin of contemporary art scene in georgia">
+                            </a>
+                            <a target="_blank" href="https://www.instagram.com/">
+                                <img src="./MainPageImg/footerimg/instagramlogo.svg" alt="instagram of contemporary art scene in georgia">
+                            </a>
+                            <a target="_blank" href="https://www.youtube.com/">
+                                <img src="./MainPageImg/footerimg/youtubelogo.svg" alt="youtube of contemporary art scene in georgia">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footerbox2 flex">
+                        <div class="aboutriabid-wrapper">
+                            <h6 class="satauri6-footer">About RiaBid</h6>
+                            <ul class="footer-ul">
+                                <a class="footer-a" href="#">
+                                    <li class="footer-li">About us</li>
+                                </a>
+                                <a class="footer-a" href="#">
+                                    <li class="footer-li">Ours Artists</li>
+                                </a>
+                                <a class="footer-a" href="#">
+                                    <li class="footer-li">Contacts</li>
+                                </a>
+                            </ul>
+                        </div>
+                        <div class="partnerships-wrapper">
+                            <h6 class="satauri6-footer">Partnerships</h6>
+                            <ul class="footer-ul">
+                                <a class="footer-a" href="#">
+                                    <li class="footer-li">Galleries</li> 
+                                </a>
+                                <a class="footer-a" href="#">
+                                    <li class="footer-li">Auctions</li>
+                                </a>
+                                <a class="footer-a" href="#">
+                                    <li class="footer-li">Artworks</li>
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom flex">
+                    <span class="designedby">DESIGN BY MAGSMAN - © 2020. ALL RIGHTS RESERVED.</span>
+                    <a href="#"><span class="termsofuse">Terms to Use</span></a> 
+                    <a href="#"><span class="privacypolicy">Privacy Policy</span></a> 
+                </div>
+            </footer>
+        </section>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
