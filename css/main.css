@@ -224,4 +224,45 @@
     max-width: 1589px;
     width: 100%;
     height: 242px;
+    display: grid;
+}
+.h5-wrapper {
+    max-width: 556px;
+    width: 100%;
+}
+.satauri5 {
+    font-size: 32px;
+    color: #fff;
+}
+.emailsubscribe {
+    display: flex;
+    max-width: 555px;
+    justify-content: space-between;
+    width: 100%;
+}
+.subscribe-wrapper {
+    justify-content: space-around;
+    align-items: center;
+}
+#email {
+    width: 372px;
+    height: 57px;
+    border-radius: 30px;
+    padding-left: 40px;
+}
+#subscribebtn {
+    width: 151px;
+    height: 57px;
+    border-radius: 30px;
+    background-color: #FBB03B;
+    color: #fff;
+    font-size: 16px;
+}
+#subscribebtn:hover {
+    background-color: #ca8a26;
+}
+#email::placeholder{
+    font-size: 15px;
+    color: #ABABAB;
+
 }
