@@ -51,6 +51,11 @@ let closeit=document.getElementById("close")
 
   console.log("click")
   ul.classList.toggle('show')
-  header.style.justifyContent="space-between"
+  
+  if(screen.width<=900){
+    header.style.justifyContent="space-between"
+  }else{
+    header.style.justifyContent="space-around"
+  }
    
  })
