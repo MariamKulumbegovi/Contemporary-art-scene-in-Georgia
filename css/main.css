@@ -1,6 +1,9 @@
 .flex {
     display: flex;
 }
+body {
+    overflow-x: hidden;
+}
 .headersection {
     max-width: 1920px;
     width: 100%;
@@ -49,8 +52,8 @@
     max-width: 74px;
     width: 100%;
     transition-property: all;
-    transition-duration: 0.5s;
-    transition-delay: 0.5s;
+    transition-duration: 0.3s;
+    transition-delay: 0.3s;
 }
 .riabidicon {
     display: none;
@@ -71,6 +74,15 @@
     font-family: Poppinssemibold;
 
 }
+.li-s {
+    justify-content: space-between;
+    max-width: 600px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: initial;
+}
+
 .h1-shopnow-wrapper {
     flex-direction: column;
     justify-content: space-around;
@@ -360,6 +372,7 @@
     max-width: 600px;
     width: 100%;
     justify-content: space-between;
+    align-items: center;
 }
 .designedby {
     font-size: 12px;
@@ -375,7 +388,9 @@
     max-width: 178px;
     width: 100%;
 }
-
+#close {
+    display: none;
+}
 
 @media screen and  (max-width: 1367px){
     .viewall-wrapper, .checkmore-wrapper {
@@ -541,11 +556,6 @@
         display: block;
     }
     .ul-wrapper {
-        margin-top: -100vh;
-        transition-duration: 0.5s;
-        transition-delay: 0.5s;
-    }
-    .show {
         margin:0;
         flex-direction: column;
         align-items: baseline;
@@ -553,20 +563,42 @@
         background-color: rgba(251, 251, 251, 0.95);
         height: 100vh;
         position: fixed;
+        align-items: flex-end;
+        
+    }
+    .show {
+        margin-top: -100vh;
+        transition-duration: 0.5s;
+        transition-delay: 0.5s;
     }
     .li-wrapper {
         height: 200px;
-        margin-top: 70px;
+        margin-top: 40px;
         padding-left: 30px;
         position: fixed;
         z-index: 20;
-        flex-direction: column;
-    align-items: baseline;
+        flex-direction: initial;
+        justify-content: space-between;
+        align-items: center;
     }
     .a-li {
         flex-direction: column;
         height: 200px;
         color: black;
     }
-
-}
+    #close {
+        display: inline-block;
+        margin: 70px 20px 0 0;
+        width: 20px;
+    }
+    .closeit {
+        align-self: baseline;
+        margin-top: -30px;
+    }
+    .li-s {
+        line-height: 1.5;
+        flex-direction: column;
+        align-items: baseline;
+    }
+       
+    }

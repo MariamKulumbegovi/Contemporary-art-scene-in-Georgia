@@ -34,9 +34,23 @@ $(photohover).hover(function () {
 
   let togglenav=document.getElementById("toggle")
   let ul=document.getElementById("ul-show")
+  let header=document.getElementById("header-wrapper")
 
    togglenav.addEventListener('click',function () {
      ul.classList.toggle('show')
+     header.style.justifyContent="center"
+    
     
      
+ })
+
+ 
+let closeit=document.getElementById("close")
+
+ closeit.addEventListener('click', function () {
+
+  console.log("click")
+  ul.classList.toggle('show')
+  header.style.justifyContent="space-between"
+   
  })
